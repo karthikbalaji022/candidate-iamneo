@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/candidate-iamneo/static/css/main.073c9b0a.css",
+    "main.js": "/candidate-iamneo/static/js/main.785fb1b9.js",
+    "static/js/787.49cfcfc9.chunk.js": "/candidate-iamneo/static/js/787.49cfcfc9.chunk.js",
+    "static/media/logo.svg": "/candidate-iamneo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/candidate-iamneo/index.html",
+    "main.073c9b0a.css.map": "/candidate-iamneo/static/css/main.073c9b0a.css.map",
+    "main.785fb1b9.js.map": "/candidate-iamneo/static/js/main.785fb1b9.js.map",
+    "787.49cfcfc9.chunk.js.map": "/candidate-iamneo/static/js/787.49cfcfc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.785fb1b9.js"
+  ]
+}
