@@ -4,13 +4,12 @@ import Head from './components/Head';
 import Activity from './components/Activity';
 import CandidateStatus from './components/CandidateStatus'
 import React,{useReducer} from 'react';
-
 export const AppContext=React.createContext();
 function App() {
   const initialState={
     inputText:'',
   };
-  function reducer(state,action)
+  function reducer(reducerstate,action)
   {
     switch(action.type){
       case 'SearchChange':
@@ -18,15 +17,14 @@ function App() {
           inputText:action.data
         };
         default:
-          return state;
+          return reducerstate;
     }
   }
   const [state,dispatch]=useReducer(reducer,initialState);
-
   return (
-    <div className="AppContainer">
+    <div style={{width:"100%",height:"100vh",display: "flex",overflow: "hidden"}}>
      <Nav />
-     <div className='rightContent'>
+     <div style={{flex: "96%",width:"100vw",height: "100%"}}>
      <AppContext.Provider value={{state,dispatch}}>
       <Head />
       <Activity/>
@@ -34,7 +32,5 @@ function App() {
       </AppContext.Provider>
      </div>
     </div>
-  );
-}
-
+  );}
 export default App;
