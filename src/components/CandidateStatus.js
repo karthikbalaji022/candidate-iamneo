@@ -15,8 +15,6 @@ const DragEnd = (result, columns, setColumns) => {
         const destItems = [...destColumn.items];
         if(result.type==="column")
         {
-          if(sourceItems.length==0) return;
-          
         setColumns({
           ...columns,
           [source.droppableId]:destColumn,
