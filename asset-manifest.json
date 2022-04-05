@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/candidate-iamneo/static/css/main.b5f711e2.css",
-    "main.js": "/candidate-iamneo/static/js/main.cf0fe6ef.js",
+    "main.css": "/candidate-iamneo/static/css/main.ace3730b.css",
+    "main.js": "/candidate-iamneo/static/js/main.3c5a87e3.js",
     "index.html": "/candidate-iamneo/index.html",
-    "main.b5f711e2.css.map": "/candidate-iamneo/static/css/main.b5f711e2.css.map",
-    "main.cf0fe6ef.js.map": "/candidate-iamneo/static/js/main.cf0fe6ef.js.map"
+    "main.ace3730b.css.map": "/candidate-iamneo/static/css/main.ace3730b.css.map",
+    "main.3c5a87e3.js.map": "/candidate-iamneo/static/js/main.3c5a87e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5f711e2.css",
-    "static/js/main.cf0fe6ef.js"
+    "static/css/main.ace3730b.css",
+    "static/js/main.3c5a87e3.js"
   ]
 }
